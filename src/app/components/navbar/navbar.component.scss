@@ -13,8 +13,8 @@
 
     border-radius: 0.5rem;
 
-    color: $clr-white;
-    background-color: $clr-gray;
+    color: $clr-gray;
+    background-color: rgba($clr-white, 0.6);
 
     font-size: $fs-md;
 
@@ -32,7 +32,7 @@
             cursor: pointer;
 
             &:hover {
-                color: $clr-purple;
+                color: $clr-solar;
             }
         }
 

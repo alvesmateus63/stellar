@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+    width: 28.125rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-block-end: 1.125rem;
+    padding: 0.4rem 0.6rem;
+
+    border-radius: 0.5rem;
+
+    color: $clr-white;
+    background-color: $clr-gray;
+
+    font-size: $fs-md;
+
+    .navbar__links {
+        display: flex;
+        gap: 1.1rem;
+
+        margin: 0;
+
+        list-style: none;
+
+        .navbar__link {
+            text-transform: uppercase;
+
+            cursor: pointer;
+
+            &:hover {
+                color: $clr-purple;
+            }
+        }
+
+    }
+
+}

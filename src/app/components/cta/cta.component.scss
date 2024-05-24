@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.cta {
+    padding: 0.3rem 0.4rem;
+
+    color: $clr-white;
+    background-color: $clr-purple;
+
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: $fs-sm;
+
+    cursor: pointer;
+}
